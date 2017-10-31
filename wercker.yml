@@ -3,7 +3,7 @@ box: golang
 dev:
   steps:
     - setup-go-workspace:
-        package-dir: github.com/mazhiguo01/cloudgo
+        package-dir: github.com/mazhiguo01/hello
 
     - script:
         name: env
@@ -25,7 +25,7 @@ dev:
 build:
   steps:
     - setup-go-workspace:
-        package-dir: github.com/mazhiguo01/cloudgo
+        package-dir: github.com/mazhiguo01/hello
 
     - script:
         name: env
